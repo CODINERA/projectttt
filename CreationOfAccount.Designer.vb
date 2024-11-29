@@ -23,42 +23,40 @@ Partial Class CreationOfAccount
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtconfirmpass = New Guna.UI2.WinForms.Guna2TextBox()
+        txtpassword = New Guna.UI2.WinForms.Guna2TextBox()
+        txtemail = New Guna.UI2.WinForms.Guna2TextBox()
+        txtname = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2Panel1.SuspendLayout()
+        CType(Guna2CirclePictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -83,156 +81,159 @@ Partial Class CreationOfAccount
         ' 
         ' Guna2Panel1
         ' 
-        Guna2Panel1.BackColor = Color.LimeGreen
+        Guna2Panel1.BackColor = Color.DarkSeaGreen
         Guna2Panel1.BorderRadius = 10
+        Guna2Panel1.Controls.Add(Guna2CirclePictureBox1)
         Guna2Panel1.Controls.Add(Guna2Button1)
-        Guna2Panel1.Controls.Add(Guna2TextBox4)
-        Guna2Panel1.Controls.Add(Guna2TextBox3)
-        Guna2Panel1.Controls.Add(Guna2TextBox2)
-        Guna2Panel1.Controls.Add(Guna2TextBox1)
+        Guna2Panel1.Controls.Add(txtconfirmpass)
+        Guna2Panel1.Controls.Add(txtpassword)
+        Guna2Panel1.Controls.Add(txtemail)
+        Guna2Panel1.Controls.Add(txtname)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel5)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel4)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel3)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel2)
-        Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Guna2PictureBox1)
-        Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges15
+        Guna2Panel1.CustomizableEdges = CustomizableEdges29
         Guna2Panel1.Location = New Point(-1, 0)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Guna2Panel1.Size = New Size(641, 400)
         Guna2Panel1.TabIndex = 0
+        ' 
+        ' Guna2CirclePictureBox1
+        ' 
+        Guna2CirclePictureBox1.Image = My.Resources.Resources.FitCheck_Black
+        Guna2CirclePictureBox1.ImageRotate = 0F
+        Guna2CirclePictureBox1.Location = New Point(581, 12)
+        Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Guna2CirclePictureBox1.Size = New Size(49, 43)
+        Guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2CirclePictureBox1.TabIndex = 11
+        Guna2CirclePictureBox1.TabStop = False
         ' 
         ' Guna2Button1
         ' 
         Guna2Button1.Animated = True
         Guna2Button1.BackColor = Color.Transparent
-        Guna2Button1.BackgroundImage = My.Resources.Resources.bg_blurred
         Guna2Button1.BorderRadius = 10
-        Guna2Button1.CustomizableEdges = CustomizableEdges1
+        Guna2Button1.CustomizableEdges = CustomizableEdges17
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = Color.PeachPuff
+        Guna2Button1.FillColor = Color.SeaGreen
         Guna2Button1.Font = New Font("Arial", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2Button1.ForeColor = Color.Black
+        Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(340, 319)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2Button1.Size = New Size(290, 31)
         Guna2Button1.TabIndex = 10
         Guna2Button1.Text = "Login"
         ' 
-        ' Guna2TextBox4
+        ' txtconfirmpass
         ' 
-        Guna2TextBox4.BackColor = Color.Transparent
-        Guna2TextBox4.BackgroundImage = My.Resources.Resources.bg_blurred
-        Guna2TextBox4.BorderRadius = 10
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges3
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FillColor = Color.PaleTurquoise
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(337, 270)
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PasswordChar = ChrW(0)
-        Guna2TextBox4.PlaceholderForeColor = Color.Black
-        Guna2TextBox4.PlaceholderText = "Confirm Password:"
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox4.Size = New Size(293, 27)
-        Guna2TextBox4.TabIndex = 9
+        txtconfirmpass.BackColor = Color.Transparent
+        txtconfirmpass.BorderRadius = 10
+        txtconfirmpass.CustomizableEdges = CustomizableEdges19
+        txtconfirmpass.DefaultText = ""
+        txtconfirmpass.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtconfirmpass.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtconfirmpass.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtconfirmpass.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtconfirmpass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtconfirmpass.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtconfirmpass.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtconfirmpass.Location = New Point(337, 270)
+        txtconfirmpass.Name = "txtconfirmpass"
+        txtconfirmpass.PasswordChar = ChrW(0)
+        txtconfirmpass.PlaceholderForeColor = Color.Black
+        txtconfirmpass.PlaceholderText = "Confirm Password:"
+        txtconfirmpass.SelectedText = ""
+        txtconfirmpass.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtconfirmpass.Size = New Size(293, 27)
+        txtconfirmpass.TabIndex = 9
         ' 
-        ' Guna2TextBox3
+        ' txtpassword
         ' 
-        Guna2TextBox3.BackColor = Color.Transparent
-        Guna2TextBox3.BackgroundImage = My.Resources.Resources.bg_blurred
-        Guna2TextBox3.BorderRadius = 10
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FillColor = Color.PaleTurquoise
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox3.ForeColor = Color.Black
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(337, 222)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PasswordChar = ChrW(0)
-        Guna2TextBox3.PlaceholderForeColor = Color.Black
-        Guna2TextBox3.PlaceholderText = "Password:"
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox3.Size = New Size(293, 27)
-        Guna2TextBox3.TabIndex = 8
+        txtpassword.BackColor = Color.Transparent
+        txtpassword.BorderRadius = 10
+        txtpassword.CustomizableEdges = CustomizableEdges21
+        txtpassword.DefaultText = ""
+        txtpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtpassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtpassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtpassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtpassword.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtpassword.ForeColor = Color.Black
+        txtpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtpassword.Location = New Point(337, 222)
+        txtpassword.Name = "txtpassword"
+        txtpassword.PasswordChar = ChrW(0)
+        txtpassword.PlaceholderForeColor = Color.Black
+        txtpassword.PlaceholderText = "Password:"
+        txtpassword.SelectedText = ""
+        txtpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        txtpassword.Size = New Size(293, 27)
+        txtpassword.TabIndex = 8
         ' 
-        ' Guna2TextBox2
+        ' txtemail
         ' 
-        Guna2TextBox2.BackColor = Color.Transparent
-        Guna2TextBox2.BackgroundImage = My.Resources.Resources.bg_blurred
-        Guna2TextBox2.BorderRadius = 10
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges7
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FillColor = Color.PaleTurquoise
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox2.ForeColor = Color.Black
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(337, 178)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderForeColor = Color.Black
-        Guna2TextBox2.PlaceholderText = "Email address:"
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox2.Size = New Size(293, 27)
-        Guna2TextBox2.TabIndex = 7
+        txtemail.BackColor = Color.Transparent
+        txtemail.BorderRadius = 10
+        txtemail.CustomizableEdges = CustomizableEdges23
+        txtemail.DefaultText = ""
+        txtemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtemail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtemail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtemail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtemail.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtemail.ForeColor = Color.Black
+        txtemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtemail.Location = New Point(337, 178)
+        txtemail.Name = "txtemail"
+        txtemail.PasswordChar = ChrW(0)
+        txtemail.PlaceholderForeColor = Color.Black
+        txtemail.PlaceholderText = "Email address:"
+        txtemail.SelectedText = ""
+        txtemail.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        txtemail.Size = New Size(293, 27)
+        txtemail.TabIndex = 7
         ' 
-        ' Guna2TextBox1
+        ' txtname
         ' 
-        Guna2TextBox1.BackColor = Color.Transparent
-        Guna2TextBox1.BackgroundImage = My.Resources.Resources.bg_blurred
-        Guna2TextBox1.BorderRadius = 10
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges9
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FillColor = Color.PaleTurquoise
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2TextBox1.ForeColor = Color.Black
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(337, 135)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderForeColor = Color.Black
-        Guna2TextBox1.PlaceholderText = "Name:"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox1.Size = New Size(293, 27)
-        Guna2TextBox1.TabIndex = 6
+        txtname.BackColor = Color.Transparent
+        txtname.BorderRadius = 10
+        txtname.CustomizableEdges = CustomizableEdges25
+        txtname.DefaultText = ""
+        txtname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtname.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtname.ForeColor = Color.Black
+        txtname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtname.Location = New Point(337, 135)
+        txtname.Name = "txtname"
+        txtname.PasswordChar = ChrW(0)
+        txtname.PlaceholderForeColor = Color.Black
+        txtname.PlaceholderText = "Name:"
+        txtname.SelectedText = ""
+        txtname.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        txtname.Size = New Size(293, 27)
+        txtname.TabIndex = 6
         ' 
         ' Guna2HtmlLabel5
         ' 
         Guna2HtmlLabel5.BackColor = Color.Transparent
-        Guna2HtmlLabel5.BackgroundImage = My.Resources.Resources.bg_blurred
         Guna2HtmlLabel5.Font = New Font("Arial", 9F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel5.ForeColor = Color.Black
         Guna2HtmlLabel5.Location = New Point(530, 356)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(41, 17)
@@ -242,8 +243,8 @@ Partial Class CreationOfAccount
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.BackgroundImage = My.Resources.Resources.bg_blurred
         Guna2HtmlLabel4.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel4.ForeColor = Color.Black
         Guna2HtmlLabel4.Location = New Point(382, 356)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(142, 17)
@@ -253,8 +254,8 @@ Partial Class CreationOfAccount
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.BackgroundImage = My.Resources.Resources.bg_blurred
         Guna2HtmlLabel3.Font = New Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel3.ForeColor = Color.Black
         Guna2HtmlLabel3.Location = New Point(337, 95)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(122, 17)
@@ -264,52 +265,28 @@ Partial Class CreationOfAccount
         ' Guna2HtmlLabel2
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.BackgroundImage = My.Resources.Resources.bg_blurred
         Guna2HtmlLabel2.Font = New Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel2.Location = New Point(337, 77)
+        Guna2HtmlLabel2.ForeColor = Color.Black
+        Guna2HtmlLabel2.Location = New Point(337, 65)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(205, 24)
         Guna2HtmlLabel2.TabIndex = 2
         Guna2HtmlLabel2.Text = "Welcome to ProActive"
         ' 
-        ' Guna2HtmlLabel1
-        ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.BackgroundImage = My.Resources.Resources.bgblurred2
-        Guna2HtmlLabel1.Font = New Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel1.Location = New Point(58, 12)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(64, 18)
-        Guna2HtmlLabel1.TabIndex = 1
-        Guna2HtmlLabel1.Text = "ProActive"
-        ' 
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.BackColor = Color.Transparent
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges11
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges27
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.bgblurred2
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(0, 0)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Guna2PictureBox1.Size = New Size(321, 400)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
-        ' 
-        ' Guna2PictureBox2
-        ' 
-        Guna2PictureBox2.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges13
-        Guna2PictureBox2.Image = My.Resources.Resources.bg_blurred
-        Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(321, 0)
-        Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2PictureBox2.Size = New Size(321, 400)
-        Guna2PictureBox2.TabIndex = 11
-        Guna2PictureBox2.TabStop = False
         ' 
         ' CreationOfAccount
         ' 
@@ -323,8 +300,8 @@ Partial Class CreationOfAccount
         Text = "CreationOfAccount"
         Guna2Panel1.ResumeLayout(False)
         Guna2Panel1.PerformLayout()
+        CType(Guna2CirclePictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -337,12 +314,11 @@ Partial Class CreationOfAccount
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtconfirmpass As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtpassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtemail As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class

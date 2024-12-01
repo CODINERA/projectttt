@@ -55,11 +55,11 @@ Public Class Form1
 
     Private Function ValidateInputs() As Boolean
         If String.IsNullOrWhiteSpace(txtEmail.Text) Then
-            MessageBox.Show("Username cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Emain cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         If String.IsNullOrWhiteSpace(txtPassword.Text) Then
-            MessageBox.Show("Email cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Password cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         Return True

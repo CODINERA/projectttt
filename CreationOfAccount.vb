@@ -54,50 +54,67 @@ Public Class CreationOfAccount
         CreateAccount()
     End Sub
 
+    ' Updated function to check if the inputs are valid
     Private Function ValidateInputs() As Boolean
         If String.IsNullOrWhiteSpace(txtname.Text) Then
             MessageBox.Show("Username cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         If String.IsNullOrWhiteSpace(txtemail.Text) Then
-            MessageBox.Show("Sex cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Email cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         If String.IsNullOrWhiteSpace(txtpassword.Text) Then
-            MessageBox.Show("Age cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Password cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         If String.IsNullOrWhiteSpace(txtconfirmpass.Text) Then
-            MessageBox.Show("Country cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Confirm Password cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
         Return True
     End Function
 
+    ' Updated function for account creation with input validation and email check
     Private Sub CreateAccount()
         Dim name As String = txtname.Text
         Dim email As String = txtemail.Text
         Dim password As String = txtpassword.Text
         Dim confirmPassword As String = txtconfirmpass.Text
 
+        ' Validate inputs before proceeding
+        If Not ValidateInputs() Then
+            Return ' Stop if inputs are invalid
+        End If
+
+        ' Check if the passwords match
         If password <> confirmPassword Then
             MessageBox.Show("Passwords do not match. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return
         End If
 
+        ' Create the account and get the user ID
         Dim userID As Integer = SaveAccountData(name, email, password)
 
+        If userID = -1 Then
+            ' If userID is -1, that means there was an error, so stop further processing
+            Return
+        End If
+
+        ' Clear the fields after successful account creation
         txtname.Clear()
         txtemail.Clear()
         txtpassword.Clear()
         txtconfirmpass.Clear()
 
+        ' Show the next form
         Dim surveyForm As New FLS1()
         surveyForm.UserID = userID
         surveyForm.Show()
         Me.Hide()
     End Sub
 
+    ' Function to save the account data and check if email is already registered
     Private Function SaveAccountData(name As String, email As String, password As String) As Integer
         Dim userID As Integer = -1
         Try
@@ -107,26 +124,39 @@ Public Class CreationOfAccount
                 Dim transaction As MySqlTransaction = connection.BeginTransaction()
 
                 Try
+                    ' Check if the email already exists
+                    Dim checkQuery As String = "SELECT COUNT(*) FROM USERS WHERE Email = @Email"
+                    Using checkCmd As New MySqlCommand(checkQuery, connection, transaction)
+                        checkCmd.Parameters.AddWithValue("@Email", email)
+                        Dim count As Integer = Convert.ToInt32(checkCmd.ExecuteScalar())
+
+                        If count > 0 Then
+                            MessageBox.Show("This email is already registered. Please use a different email.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                            Return -1 ' Return -1 if email is already registered
+                        End If
+                    End Using
+
+                    ' Insert query for user data
                     Dim query1 As String = "INSERT INTO USERS (Username, Email, Password) VALUES (@Username, @Email, @Password); SELECT LAST_INSERT_ID();"
                     Using command1 As New MySqlCommand(query1, connection, transaction)
+                        ' Hash the password before inserting
                         Dim hashedPassword As String = BCrypt.Net.BCrypt.HashPassword(password)
                         command1.Parameters.AddWithValue("@Username", name)
                         command1.Parameters.AddWithValue("@Email", email)
                         command1.Parameters.AddWithValue("@Password", hashedPassword)
 
+                        ' Execute and get the last inserted ID (userID)
                         userID = Convert.ToInt32(command1.ExecuteScalar())
                     End Using
 
+                    ' Commit the transaction
                     transaction.Commit()
+
                     MessageBox.Show("Account created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 Catch ex As MySqlException
+                    ' Rollback transaction in case of error
                     transaction.Rollback()
-
-                    If ex.Number = 1062 Then ' Duplicate entry error
-                        MessageBox.Show("This email is already registered. Please use a different email.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                    Else
-                        MessageBox.Show("Database error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                    End If
+                    MessageBox.Show("Database error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 End Try
             End Using
         Catch ex As Exception
@@ -136,8 +166,7 @@ Public Class CreationOfAccount
         Return userID
     End Function
 
-
-
+    ' Back to login page when the label is clicked
     Private Sub Guna2HtmlLabel5_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel5.Click
         Dim signInForm As New Form1()
         signInForm.Show()
